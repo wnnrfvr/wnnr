@@ -1,0 +1,27 @@
+* body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body {
+    background-color: rgb(119, 174, 247);
+}
+h1 {
+    float: center;
+    color: blue;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(121, 121, 230, 0.308);
+    border-radius: 60px;
+}
+header .logo {
+    margin-right: auto;
+}
+nav h3 {
+    display: inline-block;
+    padding: 0 30px;
+}
